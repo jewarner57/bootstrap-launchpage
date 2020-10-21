@@ -1,0 +1,14 @@
+.navbar {
+  padding: 1em;
+  background-color:  rgb(78, 78, 140);
+}
+
+.footer {
+    padding: 1em;
+    background-color: rgb(78, 78, 140);
+}
+
+.btn-primary:hover {
+  background-color: rgb(31, 125, 142);
+  color: white;
+}
