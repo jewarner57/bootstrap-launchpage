@@ -8,7 +8,33 @@
     background-color: rgb(78, 78, 140);
 }
 
+.btn-primary {
+  background-color: rgb(48, 159, 179);
+}
+
 .btn-primary:hover {
   background-color: rgb(31, 125, 142);
   color: white;
+}
+
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3);
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  filter: brightness(90%);
 }
